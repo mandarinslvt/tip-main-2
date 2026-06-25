@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Библиотека — Читатели</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/readers.css">
+</head>
+<body>
+  <div className="page-wrapper">
+    <!-- ========== HEADER ========== -->
+    <header className="header">
+      <div className="container">
+        <div className="header-content">
+          <div className="logo">
+            <span className="logo-icon">📚</span>
+            <span>Библиотека</span>
+          </div>
+          <nav className="nav">
+            <a href="index.html">
+              📖 Книги
+              <span className="nav-badge">10</span>
+            </a>
+            <a href="readers.html" className="active">
+              👤 Читатели
+              <span className="nav-badge">5</span>
+            </a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- ========== MAIN ========== -->
+    <main className="main-content">
+      <div className="container">
+        <h1 className="page-title">Читатели библиотеки</h1>
+        <p className="page-subtitle">
+          Всего читателей: <strong>5</strong>
+        </p>
+
+        <!-- Reader List -->
+        <div className="reader-list">
+          <!-- Reader Card 1 -->
+          <div className="reader-card">
+            <div className="reader-avatar">
+              <span className="reader-avatar-emoji">👤</span>
+            </div>
+            <div className="reader-content">
+              <h3 className="reader-name">Иван Петров</h3>
+              <p className="reader-email">ivan@mail.ru</p>
+              <div className="reader-stats">
+                <span className="reader-active-books">
+                  📚 Активных книг: <strong>2</strong>
+                </span>
+              </div>
+              <a href="reader-profile.html?id=r1" className="btn btn-primary">
+                Профиль
+              </a>
+            </div>
+          </div>
+
+          <!-- Reader Card 2 -->
+          <div className="reader-card">
+            <div className="reader-avatar">
+              <span className="reader-avatar-emoji">👤</span>
+            </div>
+            <div className="reader-content">
+              <h3 className="reader-name">Мария Иванова</h3>
+              <p className="reader-email">maria@mail.ru</p>
+              <div className="reader-stats">
+                <span className="reader-active-books">
+                  📚 Активных книг: <strong>1</strong>
+                </span>
+              </div>
+              <a href="reader-profile.html?id=r2" className="btn btn-primary">
+                Профиль
+              </a>
+            </div>
+          </div>
+
+          <!-- Reader Card 3 -->
+          <div className="reader-card">
+            <div className="reader-avatar">
+              <span className="reader-avatar-emoji">👤</span>
+            </div>
+            <div className="reader-content">
+              <h3 className="reader-name">Пётр Сидоров</h3>
+              <p className="reader-email">petr@mail.ru</p>
+              <div className="reader-stats">
+                <span className="reader-active-books">
+                  📚 Активных книг: <strong>0</strong>
+                </span>
+              </div>
+              <a href="reader-profile.html?id=r3" className="btn btn-primary">
+                Профиль
+              </a>
+            </div>
+          </div>
+
+          <!-- Reader Card 4 -->
+          <div className="reader-card">
+            <div className="reader-avatar">
+              <span className="reader-avatar-emoji">👤</span>
+            </div>
+            <div className="reader-content">
+              <h3 className="reader-name">Елена Смирнова</h3>
+              <p className="reader-email">elena@mail.ru</p>
+              <div className="reader-stats">
+                <span className="reader-active-books">
+                  📚 Активных книг: <strong>3</strong>
+                </span>
+              </div>
+              <a href="reader-profile.html?id=r4" className="btn btn-primary">
+                Профиль
+              </a>
+            </div>
+          </div>
+
+          <!-- Reader Card 5 -->
+          <div className="reader-card">
+            <div className="reader-avatar">
+              <span className="reader-avatar-emoji">👤</span>
+            </div>
+            <div className="reader-content">
+              <h3 className="reader-name">Алексей Новиков</h3>
+              <p className="reader-email">alexey@mail.ru</p>
+              <div className="reader-stats">
+                <span className="reader-active-books">
+                  📚 Активных книг: <strong>1</strong>
+                </span>
+              </div>
+              <a href="reader-profile.html?id=r5" className="btn btn-primary">
+                Профиль
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer className="footer">
+      <div className="container">
+        <div className="footer-content">
+          <div>© 2026 Библиотека. Все права защищены.</div>
+          <div className="footer-contacts">
+            <span>📞 +7 (999) 123-45-67</span>
+            <span>✉️ library@mail.ru</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
